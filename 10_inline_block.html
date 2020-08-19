@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inline & Block Styling</title>
+    <style>
+li {
+    display: inline;
+}
+
+li a {
+    padding-right: 20px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    /* When margin auto is done on an inline element, no change is seen
+    change is only seen in a block element */
+
+}
+
+.box {
+    display: inline-block;
+    background: #f4f4f4;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 15px;
+    width: 32.8%;
+}
+    </style>
+</head>
+<body>
+    <!-- How to change block level elements to inline -->
+    <ul>
+        <li><a href="#">Technology</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">Fashion</a></li>
+    </ul>
+
+    <br><br>
+<!-- How to change inline elements to block level eg using image -->
+    <img src="./img/Leaf.webp" alt="My image">
+
+<br><br>
+
+<div class="box">
+    <h3>Heading</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique 
+    neque quasi in ex quis placeat deserunt quaerat nihil esse aliquid.</p>
+</div>
+<div class="box">
+    <h3>Heading</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique 
+    neque quasi in ex quis placeat deserunt quaerat nihil esse aliquid.</p>
+</div>
+<div class="box">
+    <h3>Heading</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique 
+    neque quasi in ex quis placeat deserunt quaerat nihil esse aliquid.</p>
+</div>
+</div>
+</body>
+</html>

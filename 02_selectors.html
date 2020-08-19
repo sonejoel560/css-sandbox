@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Selectors</title>
+    <style>
+/* Elemeny(Tag) Selectors */
+body {
+    background-color: #333;
+}
+
+        /* # for ids, . is fr classes */
+        .primary-heading {
+            color: green;
+        }
+
+        #understanding-css-selectors{
+            background-color: lightgray
+        }
+        /* Multiple Selectors */
+        #understanding-css-selectors, #about {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 5px;
+        }
+            /* Nested Selector */
+        #understanding-css-selectors p {
+                font-size: 20px;
+            }
+
+            #about {
+                color: white;
+            }
+    </style>
+</head>
+<body>
+   <div id="understanding-css-selectors">
+       <h2 class="primary-heading">Understanding-CSS-Selectors</h2>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+        aliquid exercitationem cum iusto minus odit, omnis iure praesentium.
+        Lorem ipsum dolor sit amet consectetur.</p>
+   </div> 
+   <div id="about">
+       <h2>About</h2>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Dolore tempore temporibus est, nesciunt optio saepe autem
+        at quasi maiores corrupti!</p>
+   </div>
+</body>
+</html>
